@@ -1,5 +1,7 @@
 package main;
 
+import java.awt.*;
+
 public class Task2 {
     public static void main(String[] args) {
         int a;
@@ -12,7 +14,7 @@ public class Task2 {
         затем плюсуем 5 к 0, в результате получаем 5
          */
 
-        System.out.println((5 + 2 )/ 8);//0
+        System.out.println((5 + 2) / 8);//0
         /*
         первым складывается 5 с 2 получаем 7
         затем делим 7 на 8, в результате получаем 0
@@ -24,14 +26,28 @@ public class Task2 {
          */
         a = 2;
         b = 8;
-        System.out.println(((5 + a++)) / --b); //
+        System.out.println(((5 + a++)) / --b); //1
+        /*
+       к  переменной а добаляется 1, получаем 5 + 3,а переменная b = 7,
+       таким образом в результате образуется 1
+         */
+
+        a = 2;
+        b = 8;
+        System.out.println(5 * a >> a++ / --b);//10
+
+        a = 2;
+        b = 8;
+        System.out.println((5 + 7 > 20 ? 68 : 22 * 2 >> a++) / --b); //1
+        /*
+
+         */
 
 
-
-
-
-
+        System.out.println(6 - 2 > 3 && 12 * 12 <= 119);//false
+        /* тк 2 не больше 3 и 144 (12*12) не меньше 119. поэтому false
+         */
 
     }
-
 }
+
