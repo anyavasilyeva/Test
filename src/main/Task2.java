@@ -48,6 +48,23 @@ public class Task2 {
         /* тк 2 не больше 3 и 144 (12*12) не меньше 119. поэтому false
          */
 
+
+
+        a = 2;
+        b = 8;
+        System.out.println(((5 + 7 > 20) ? (68 >= 68) : (22 * 2 >> a++) / --b));//1
+
+
+
+
+        a = 2;
+        b = 3;
+        if (a > b) {
+            System.out.println("а больше б");
+        } else {
+            System.out.println("б больше а");
+        }
     }
+
 }
 
