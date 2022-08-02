@@ -1,4 +1,4 @@
-package main;
+package main.task01;
 
 import java.awt.*;
 
