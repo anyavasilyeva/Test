@@ -1,14 +1,12 @@
 package main.task01;
 
-import java.awt.*;
-
 public class Task2 {
     public static void main(String[] args) {
         int a;
         int b;
         int x;
 
-        System.out.println(5 + 2 / 8);//5
+        System.out.println(5);//5
         /*
         первым делится 2 на 8 получаем 0
         затем плюсуем 5 к 0, в результате получаем 5
@@ -44,17 +42,14 @@ public class Task2 {
          */
 
 
-        System.out.println(6 - 2 > 3 && 12 * 12 <= 119);//false
+        System.out.println(false);//false
         /* тк 2 не больше 3 и 144 (12*12) не меньше 119. поэтому false
          */
-
 
 
         a = 2;
         b = 8;
         System.out.println(((5 + 7 > 20) ? (68 >= 68) : (22 * 2 >> a++) / --b));//1
-
-
 
 
         a = 2;
