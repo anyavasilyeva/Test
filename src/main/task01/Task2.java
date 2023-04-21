@@ -1,7 +1,5 @@
 package main.task01;
 
-import java.awt.*;
-
 public class Task2 {
     public static void main(String[] args) {
         int a;
@@ -49,12 +47,9 @@ public class Task2 {
          */
 
 
-
         a = 2;
         b = 8;
         System.out.println(((5 + 7 > 20) ? (68 >= 68) : (22 * 2 >> a++) / --b));//1
-
-
 
 
         a = 2;
