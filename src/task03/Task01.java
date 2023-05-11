@@ -2,8 +2,8 @@ package task03;
 
         public class Task01 {
             public static void main(String[] args) {
-                boolean isWeekday = false; // сегодня выходной
-                boolean isVacation = true; // сейчас отпуск
+                boolean isWeekday = false; // выходной
+                boolean isVacation = true; // отпуск
 
                 if (sleepIn(isWeekday, isVacation)) {
                     System.out.println("Можем спать дальше");
